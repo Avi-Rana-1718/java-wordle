@@ -39,7 +39,7 @@ class Main {
             return;
         }
         
-        int tries=5;
+        int tries=6;
         while(tries>0) {
             String guessWord=sc.nextLine().toUpperCase();
             int correctLetters = guess(key, guessWord);
