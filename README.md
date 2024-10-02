@@ -1,5 +1,5 @@
 # Java-Wordle
-This program implements the popular word game Wordle. Wordle is a daily puzzle where players have six attempts to guess a five-letter word. After each guess, the game provides feedback on the correctness of each letter
+This program implements the popular word game Wordle. Wordle is a daily puzzle where players have six attempts to guess a five-letter word. After each guess, the game provides feedback on the correctness of each letter.
 
 ## How to play
 **Clone the repo**

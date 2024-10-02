@@ -30,7 +30,8 @@ class Main {
         Scanner sc = new Scanner(System.in);
 
         clearScreen();
-
+        System.out.println("This program implements the popular word game Wordle. After each guess, the game provides feedback on the correctness of each letter.");
+        System.out.println("Enter your first guess!");
         //Key
         String key = "HEART";
 
