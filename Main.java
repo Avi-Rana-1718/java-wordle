@@ -1,8 +1,9 @@
 import java.util.*;
+import javax.swing.*;
 
 class Main {
 
-    static void clearScreen() {
+       static void clearScreen() {
         System.out.print("\033[H\033[2J");
         System.out.flush();
         System.out.println("***WORDLE***\n");
@@ -28,6 +29,19 @@ class Main {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        JFrame frame = new JFrame();
+        JLabel title = new JLabel("**WORDLE**");
+        JTextField input new JTextField();
+        JButton btn = new JButton("Click");
+
+       // btn.setBounds(130, 100, 100, 40);
+        title.setBounds(10,30, 200,200);
+        frame.add(title);
+        frame.add(btn);
+        frame.setSize(width, 500);
+        frame.setLayout(null);
+        frame.setVisible(true);
 
         clearScreen();
         System.out.println("This program implements the popular word game Wordle. After each guess, the game provides feedback on the correctness of each letter.");
